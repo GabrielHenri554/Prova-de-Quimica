@@ -67,7 +67,7 @@ function shuffleQuestions(array) {
     if (currentElementIndex < elements.length) {
       const currentElement = elements[currentElementIndex];
       displayElement(currentElement);
-      correctAnswer = currentElement.name.toUpperCase();
+      correctAnswer = currentElement.name.toLowerCase();
       guessInput.value = "";
       guessInput.disabled = false;
       checkButton.disabled = false;
