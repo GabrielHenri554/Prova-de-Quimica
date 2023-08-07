@@ -24,6 +24,16 @@ border-radius: 0 16% 16% 0;
 
 }
 
+.titulos2{
+    
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+
 h1 {
     color: #007bff;
 }
