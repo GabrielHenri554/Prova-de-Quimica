@@ -1,0 +1,95 @@
+.ImagemInicial{
+
+    width: 445px;
+    float: left;
+    margin-top: 60px;
+
+}
+
+.ImagemInicial img{
+
+width: 100%;
+border-radius: 0 16% 16% 0;
+
+}
+
+.titulo{
+
+    width: 350px;
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+    color: mediumspringgreen;
+    text-decoration: underline;
+
+}
+
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    text-align: justify;
+}
+
+.tipos-ligacoes {
+    margin-top: 20px;
+}
+
+.tipos-ligacoes ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.tipos-ligacoes li {
+    margin-bottom: 10px;
+}
+
+
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+   
+}
+
+footer-elements{
+
+position: relative;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+   
+}
+
+li {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    list-style: none;
+}
+
+.titulo-desenvolvedores{
+
+color: white;
+font-weight: bold;
+margin-bottom: 5px;
+
+}
