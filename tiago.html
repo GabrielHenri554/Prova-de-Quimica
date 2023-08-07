@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Adivinhação de Elementos Químicos</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&family=Raleway:wght@300;600&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="menu-container">
+
+    <input type="checkbox" aria-label="Toggle menu" />
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <a href="" class="menu-logo">
+      <img src="./img/tklogo.png" alt=""/>
+    </a>
+
+    <div class="menu">
+      <ul>
+        <li>
+          <a href="">
+            Tiago Reginato Koligowski
+          </a>
+        </li>
+        <li>
+          <a href="">
+            N° 18
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/tiagoo.cwb/">
+            Contato
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="">
+            4° Info
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="background-image"></div>
+  <div class="container">
+    <h1>Jogo de Adivinhação de Elementos Químicos<br>Tiago Reginato Koligowski | N° 18</h1>
+    <div class="game-area">
+      <div class="element-image" id="elementImage"></div>
+      <div class="hints">
+        <p id="atomicNumber"></p>
+        <p id="elementGroup"></p>
+        <p id="interestingFact"></p>
+      </div>
+      <div class="game-input">
+      <input type="text" id="guessInput" placeholder="Digite sua resposta">
+      <button id="checkButton">Verificar</button>
+
+      <p id="resultMessage"></p>
+      <button id="nextButton">Próxima Rodada</button>
+    </div>
+      <ul id="scoreList"></ul>   
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
